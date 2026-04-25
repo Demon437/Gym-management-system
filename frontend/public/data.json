@@ -1,0 +1,441 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@email.com",
+      "phone": "+1234567890",
+      "membershipPlan": "Premium",
+      "status": "Active",
+      "joinDate": "2024-01-15",
+      "expiryDate": "2025-01-15",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
+      "age": 28,
+      "gender": "Male",
+      "address": "123 Main St, New York, NY 10001",
+      "emergencyContact": "+1234567899",
+      "attendanceCount": 45,
+      "lastVisit": "2024-02-05"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Wilson",
+      "email": "sarah.wilson@email.com",
+      "phone": "+1234567891",
+      "membershipPlan": "Basic",
+      "status": "Active",
+      "joinDate": "2024-02-01",
+      "expiryDate": "2024-08-01",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
+      "age": 25,
+      "gender": "Female",
+      "address": "456 Oak Ave, Brooklyn, NY 11201",
+      "emergencyContact": "+1234567892",
+      "attendanceCount": 32,
+      "lastVisit": "2024-02-06"
+    },
+    {
+      "id": 3,
+      "name": "Michael Chen",
+      "email": "michael.chen@email.com",
+      "phone": "+1234567893",
+      "membershipPlan": "Premium",
+      "status": "Active",
+      "joinDate": "2023-11-20",
+      "expiryDate": "2024-11-20",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Michael",
+      "age": 32,
+      "gender": "Male",
+      "address": "789 Pine Rd, Queens, NY 11375",
+      "emergencyContact": "+1234567894",
+      "attendanceCount": 67,
+      "lastVisit": "2024-02-04"
+    },
+    {
+      "id": 4,
+      "name": "Emily Johnson",
+      "email": "emily.j@email.com",
+      "phone": "+1234567895",
+      "membershipPlan": "Standard",
+      "status": "Expired",
+      "joinDate": "2023-08-10",
+      "expiryDate": "2024-02-10",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Emily",
+      "age": 29,
+      "gender": "Female",
+      "address": "321 Elm St, Manhattan, NY 10002",
+      "emergencyContact": "+1234567896",
+      "attendanceCount": 28,
+      "lastVisit": "2024-01-30"
+    },
+    {
+      "id": 5,
+      "name": "David Martinez",
+      "email": "david.m@email.com",
+      "phone": "+1234567897",
+      "membershipPlan": "Premium",
+      "status": "Active",
+      "joinDate": "2024-01-05",
+      "expiryDate": "2025-01-05",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=David",
+      "age": 35,
+      "gender": "Male",
+      "address": "654 Maple Dr, Bronx, NY 10451",
+      "emergencyContact": "+1234567898",
+      "attendanceCount": 52,
+      "lastVisit": "2024-02-06"
+    }
+  ],
+  "trainers": [
+    {
+      "id": 1,
+      "name": "Alex Thompson",
+      "email": "alex.t@fitcore.com",
+      "phone": "+1234567801",
+      "specialization": "Strength Training",
+      "experience": "8 years",
+      "status": "Active",
+      "joinDate": "2020-03-15",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
+      "rating": 4.8,
+      "certifications": ["NASM-CPT", "CSCS", "Nutrition Coach"],
+      "assignedMembers": 25,
+      "sessionsCompleted": 450
+    },
+    {
+      "id": 2,
+      "name": "Jessica Lee",
+      "email": "jessica.l@fitcore.com",
+      "phone": "+1234567802",
+      "specialization": "Yoga & Flexibility",
+      "experience": "6 years",
+      "status": "Active",
+      "joinDate": "2021-06-10",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jessica",
+      "rating": 4.9,
+      "certifications": ["RYT-500", "Pilates Instructor"],
+      "assignedMembers": 30,
+      "sessionsCompleted": 380
+    },
+    {
+      "id": 3,
+      "name": "Marcus Johnson",
+      "email": "marcus.j@fitcore.com",
+      "phone": "+1234567803",
+      "specialization": "HIIT & Cardio",
+      "experience": "5 years",
+      "status": "Active",
+      "joinDate": "2022-01-20",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus",
+      "rating": 4.7,
+      "certifications": ["ACE-CPT", "CrossFit Level 2"],
+      "assignedMembers": 22,
+      "sessionsCompleted": 310
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": 1,
+      "name": "Basic",
+      "price": 29.99,
+      "duration": "1 Month",
+      "features": [
+        "Access to gym equipment",
+        "Locker facility",
+        "Basic workout plan"
+      ],
+      "description": "Perfect for beginners starting their fitness journey",
+      "status": "Active",
+      "color": "#10b981"
+    },
+    {
+      "id": 2,
+      "name": "Standard",
+      "price": 49.99,
+      "duration": "1 Month",
+      "features": [
+        "All Basic features",
+        "Group classes access",
+        "Nutrition consultation",
+        "Progress tracking"
+      ],
+      "description": "Ideal for regular gym-goers seeking guided support",
+      "status": "Active",
+      "color": "#3b82f6"
+    },
+    {
+      "id": 3,
+      "name": "Premium",
+      "price": 89.99,
+      "duration": "1 Month",
+      "features": [
+        "All Standard features",
+        "Personal trainer sessions (4/month)",
+        "Spa & sauna access",
+        "Priority class booking",
+        "Custom meal plans"
+      ],
+      "description": "Complete fitness experience with personalized attention",
+      "status": "Active",
+      "color": "#f59e0b"
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "memberId": 1,
+      "memberName": "John Doe",
+      "checkIn": "2024-02-06T08:30:00",
+      "checkOut": "2024-02-06T10:15:00",
+      "duration": "1h 45m",
+      "date": "2026-02-018"
+    },
+    {
+      "id": 2,
+      "memberId": 2,
+      "memberName": "Sarah Wilson",
+      "checkIn": "2024-02-06T08:30:00",
+      "checkOut": "2024-02-06T10:15:00",
+      "duration": "1h 30m",
+      "date": "2026-02-017"
+    },
+    {
+      "id": 3,
+      "memberId": 5,
+      "memberName": "David Martinez",
+      "checkIn": "2024-02-06T18:00:00",
+      "checkOut": null,
+      "duration": "In Progress",
+      "date": "2026-02-18"
+    },
+    {
+      "id": 4,
+      "memberId": 3,
+      "memberName": "Michael Chen",
+      "checkIn": "2024-02-05T17:30:00",
+      "checkOut": "2024-02-05T19:00:00",
+      "duration": "1h 30m",
+      "date": "2026-02-18"
+    },
+    {
+      "id": 5,
+      "memberId": 1,
+      "memberName": "John Doe",
+      "checkIn": "2024-02-05T09:00:00",
+      "checkOut": "2024-02-05T10:30:00",
+      "duration": "1h 30m",
+      "date": "2026-02-19"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "memberId": 1,
+      "memberName": "John Doe",
+      "amount": 89.99,
+      "plan": "Premium",
+      "paymentMethod": "Credit Card",
+      "status": "Completed",
+      "date": "2024-01-15",
+      "invoiceNumber": "INV-001",
+      "nextDueDate": "2024-02-15"
+    },
+    {
+      "id": 2,
+      "memberId": 2,
+      "memberName": "Sarah Wilson",
+      "amount": 29.99,
+      "plan": "Basic",
+      "paymentMethod": "Debit Card",
+      "status": "Completed",
+      "date": "2024-02-01",
+      "invoiceNumber": "INV-002",
+      "nextDueDate": "2024-03-01"
+    },
+    {
+      "id": 3,
+      "memberId": 3,
+      "memberName": "Michael Chen",
+      "amount": 89.99,
+      "plan": "Premium",
+      "paymentMethod": "PayPal",
+      "status": "Completed",
+      "date": "2024-01-20",
+      "invoiceNumber": "INV-003",
+      "nextDueDate": "2024-02-20"
+    },
+    {
+      "id": 4,
+      "memberId": 4,
+      "memberName": "Emily Johnson",
+      "amount": 49.99,
+      "plan": "Standard",
+      "paymentMethod": "Credit Card",
+      "status": "Failed",
+      "date": "2024-02-10",
+      "invoiceNumber": "INV-004",
+      "nextDueDate": "2024-03-10"
+    },
+    {
+      "id": 5,
+      "memberId": 5,
+      "memberName": "David Martinez",
+      "amount": 89.99,
+      "plan": "Premium",
+      "paymentMethod": "Bank Transfer",
+      "status": "Pending",
+      "date": "2024-02-05",
+      "invoiceNumber": "INV-005",
+      "nextDueDate": "2024-03-05"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "name": "Morning Yoga",
+      "trainer": "Jessica Lee",
+      "trainerId": 2,
+      "schedule": "Mon, Wed, Fri - 7:00 AM",
+      "duration": "60 minutes",
+      "capacity": 20,
+      "enrolled": 15,
+      "status": "Active",
+      "description": "Start your day with energizing yoga flow",
+      "level": "Beginner to Intermediate"
+    },
+    {
+      "id": 2,
+      "name": "HIIT Bootcamp",
+      "trainer": "Marcus Johnson",
+      "trainerId": 3,
+      "schedule": "Tue, Thu - 6:00 PM",
+      "duration": "45 minutes",
+      "capacity": 15,
+      "enrolled": 15,
+      "status": "Full",
+      "description": "High-intensity interval training for maximum results",
+      "level": "Intermediate to Advanced"
+    },
+    {
+      "id": 3,
+      "name": "Strength & Conditioning",
+      "trainer": "Alex Thompson",
+      "trainerId": 1,
+      "schedule": "Mon, Wed, Fri - 6:00 PM",
+      "duration": "75 minutes",
+      "capacity": 12,
+      "enrolled": 10,
+      "status": "Active",
+      "description": "Build muscle and increase overall strength",
+      "level": "All Levels"
+    },
+    {
+      "id": 4,
+      "name": "Pilates Core",
+      "trainer": "Jessica Lee",
+      "trainerId": 2,
+      "schedule": "Tue, Thu - 9:00 AM",
+      "duration": "50 minutes",
+      "capacity": 18,
+      "enrolled": 12,
+      "status": "Active",
+      "description": "Strengthen your core and improve posture",
+      "level": "Beginner"
+    },
+    {
+      "id": 5,
+      "name": "Strength & Conditioning",
+      "trainer": "Alex Thompson",
+      "trainerId": 1,
+      "schedule": "Mon, Wed, Fri - 6:00 PM",
+      "duration": "75 minutes",
+      "capacity": 12,
+      "enrolled": 10,
+      "status": "Active",
+      "description": "Build muscle and increase overall strength",
+      "level": "All Levels"
+    },
+    {
+      "id": 6,
+      "name": "Pilates Core",
+      "trainer": "Jessica Lee",
+      "trainerId": 2,
+      "schedule": "Tue, Thu - 9:00 AM",
+      "duration": "50 minutes",
+      "capacity": 18,
+      "enrolled": 12,
+      "status": "Active",
+      "description": "Strengthen your core and improve posture",
+      "level": "Beginner"
+    }
+  ],
+  "settings": {
+    "gymProfile": {
+      "name": "FitCore Gym & Fitness",
+      "email": "info@fitcore.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Fitness Street, New York, NY 10001",
+      "website": "www.fitcore.com",
+      "logo": "/logo.png",
+      "openingHours": {
+        "monday": "6:00 AM - 10:00 PM",
+        "tuesday": "6:00 AM - 10:00 PM",
+        "wednesday": "6:00 AM - 10:00 PM",
+        "thursday": "6:00 AM - 10:00 PM",
+        "friday": "6:00 AM - 10:00 PM",
+        "saturday": "8:00 AM - 8:00 PM",
+        "sunday": "8:00 AM - 6:00 PM"
+      }
+    },
+    "roles": [
+      {
+        "id": 1,
+        "name": "Admin",
+        "permissions": ["all"]
+      },
+      {
+        "id": 2,
+        "name": "Manager",
+        "permissions": ["view_members", "edit_members", "view_trainers", "view_classes", "view_payments"]
+      },
+      {
+        "id": 3,
+        "name": "Receptionist",
+        "permissions": ["view_members", "mark_attendance", "view_classes"]
+      }
+    ]
+  },
+  "dashboard": {
+    "stats": {
+      "totalMembers": 247,
+      "activeMembers": 189,
+      "totalRevenue": 18750.50,
+      "monthlyRevenue": 8450.00,
+      "todayAttendance": 67,
+      "activeTrainers": 12
+    },
+    "revenueChart": [
+      { "month": "Aug", "revenue": 6500 },
+      { "month": "Sep", "revenue": 7200 },
+      { "month": "Oct", "revenue": 8100 },
+      { "month": "Nov", "revenue": 7800 },
+      { "month": "Dec", "revenue": 9200 },
+      { "month": "Jan", "revenue": 8450 }
+    ],
+    "attendanceChart": [
+      { "day": "Mon", "count": 78 },
+      { "day": "Tue", "count": 85 },
+      { "day": "Wed", "count": 92 },
+      { "day": "Thu", "count": 88 },
+      { "day": "Fri", "count": 95 },
+      { "day": "Sat", "count": 112 },
+      { "day": "Sun", "count": 67 }
+    ],
+    "membershipDistribution": [
+      { "name": "Basic", "value": 89, "color": "#10b981" },
+      { "name": "Standard", "value": 78, "color": "#3b82f6" },
+      { "name": "Premium", "value": 65, "color": "#f59e0b" },
+      { "name": "Elite", "value": 15, "color": "#8b5cf6" }
+    ]
+  }
+}
