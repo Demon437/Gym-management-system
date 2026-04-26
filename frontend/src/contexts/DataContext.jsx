@@ -2,8 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from "react";
 
 const DataContext = createContext();
 
-const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:5000/api";
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 
 export const useData = () => {
   const context = useContext(DataContext);

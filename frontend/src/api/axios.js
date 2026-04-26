@@ -1,9 +1,10 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000/api", // backend URL
+  baseURL: import.meta.env.VITE_API_URL, // backend URL
   withCredentials: true,
 });
+{console.log("API URL:", import.meta.env.VITE_API_URL)}
 
 // Optional: Token auto attach
 axiosInstance.interceptors.request.use((config) => {

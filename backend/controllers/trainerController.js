@@ -73,7 +73,7 @@ export const createTrainer = async (req, res) => {
       });
     }
 
-    const avatar = req.file ? `/uploads/${req.file.filename}` : '';
+    const avatar = req.file ? req.file.path : '';
 
     const newTrainer = await Trainer.create({
       name,
@@ -113,7 +113,7 @@ export const updateTrainer = async (req, res) => {
     const updateData = { ...req.body };
 
     if (req.file) {
-      updateData.avatar = `/uploads/${req.file.filename}`;
+      updateData.avatar = req.file.path;
     }
 
     if (updateData.certifications && !Array.isArray(updateData.certifications)) {

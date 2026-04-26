@@ -28,7 +28,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:3000",
   "http://localhost:5173",
-  
+
 ];
 
 app.use(
@@ -51,7 +51,8 @@ app.get("/", (req, res) => {
   res.json({ message: "✅ FitCore Gym API running" });
 });
 
-app.use("/uploads", express.static(path.join(process.cwd(), "uploads")));
+// Static uploads directory - now using Cloudinary instead
+// app.use("/uploads", express.static(path.join(process.cwd(), "uploads")));
 
 app.use("/api/auth", authRoutes);
 app.use("/api/members", memberRoutes);
